@@ -352,6 +352,7 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 87px;
     
 }
 
@@ -412,5 +413,427 @@ nav{
 }
 
 .sectors-container{
+    background-image: url(./WUC-assets/5.jpg);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 180px;
     
+}
+
+.core-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 89px;
+
+}
+
+.sector-title{
+    
+    height: 12px;
+    width: 300px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+.sector-second-title{
+    color: #36BB9E;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    width: 300px;
+    font-size: 33px;
+    text-align: center;
+    
+}
+
+.core-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 62px;
+}
+
+.core-box{
+    background-color: white;
+    flex-direction: column;
+    width: 266px;
+    height: 342px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sector-img{
+    display: flex;
+    padding-top: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 26px;
+    height: 79px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.sector-name-obj{
+    background: rgb(54,187,158);
+    background: linear-gradient(90deg, rgba(54,187,158,1) 0%, rgba(9,9,121,1) 100%, rgba(0,106,158,1) 100%);
+    text-align: center;
+    height: 35px;
+}
+
+.sector-name{
+    width: 57px;
+    height: 15px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    padding-top:10px;
+}
+
+.sector-desc{
+    display: flex;
+    padding: 19px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.small-box{ 
+    margin-bottom: 28px;
+
+}
+
+.sector-dis{
+    
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.readmore-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.readme-btn{
+    background: rgb(54,187,158);
+    background: linear-gradient(90deg, rgba(54,187,158,1) 0%, rgba(9,9,121,1) 100%, rgba(0,106,158,1) 100%);
+    border: 0;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 300;
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    color: white;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.subscribe{
+    background-image: url(./WUC-assets/3.png);
+    display: flex;
+    padding-bottom: 124px;
+}
+
+.sub-box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-sub-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 127px;
+    gap:35px;
+}
+
+.Subscribe-to-event-updates{
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.The-World-Utilities-Congress-WUC-exhibition-and-Conference-p{
+    width: 512px;
+    height: 156px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    
+}
+
+.name-email{
+    width: 200px;
+    height: 12px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.input{
+    width: 453px;
+    height: 46px;
+    margin-top: -20px;
+    border: 0;
+    border-radius: 0.5%;
+}
+
+.subscribe-btn{
+    height:27px ;
+    width: 154px;
+    font-size: 12px;
+    color: white;
+    border: 0;
+    border-radius: 3%;
+    background-color: #36BB9E;
+    font-family: 'Barlow', sans-serif;
+    cursor: pointer;
+}
+
+
+.footer-start{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.footer-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+
+.footer-heads{
+    font-family: 'Barlow', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #36BB9E;
+
+}
+
+.footer-heads-follow{
+    font-family: 'Barlow', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #36BB9E;
+    margin-top: 20px;
+}
+
+.img-coloumn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.opening-times{
+    width: 259px;
+  height: 107px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Barlow', sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+}
+
+.dmg-logo{
+    margin-top: -70px;
+}
+
+.ipe-logo{
+    margin-top: -80px;
+}
+
+.opening-timess{
+    width: 280px;
+  height: 107px;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: 'Barlow', sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+}
+
+.opening-time{
+    width: 280px;
+  height: 107px;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: 'Barlow', sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+}
+
+.dmg-logo{
+    width: 112px;
+    height: 18px;
+}
+
+.ipe-logo{
+    width: 96px;
+  height: 44px;
+}
+
+.quick-links{
+    width: 192px;
+    height: 11px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.footer-end{
+    background-color: #5D707E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.dmg-logo-big{
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+}
+
+.large-line{
+    width: 1000px;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.row-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-socials{
+    gap: 2px;
+}
+
+.footer-txt{
+    width: 700px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+}
+
+.footer-links{
+    font-size: 25px;
+  font-weight: bold;
+  font-family: 'Barlow', sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}
+
+.i-logo{
+    margin-top: 10px;
+}
+
+.space{
+    margin-left: 5px;
 }
