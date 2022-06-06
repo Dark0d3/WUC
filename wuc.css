@@ -17,11 +17,11 @@
     font-weight: normal;
 }
 
-.container{
+.header{
     background-color: white;
 }
 
-.head{
+.head-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -30,7 +30,7 @@
 
 
 
-nav{
+.nav-container{
     position: relative;
     display: flex;
     align-items: center;
@@ -563,7 +563,7 @@ nav{
     text-align: center;
 }
 
-.subscribe{
+.subscribe-container{
     background-image: url(./WUC-assets/3.png);
     display: flex;
     padding-bottom: 124px;
