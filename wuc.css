@@ -194,21 +194,29 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-direction: row;
     margin-top: 38px;
     margin-bottom: 180px;
 }
 
 .box{
     width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
 }
 
 .image-youtube{
-    margin-left: 348px;
+    display: flex;
+
+    
+    
 }
 
 .youtube-logo{
     margin-top: -250px;
-    margin-left: 600px;
+    
 }
 
 .about-title{
